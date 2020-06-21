@@ -13,6 +13,7 @@ var isEmail = require('./isEmail')
 var isIdCard = require('./isIdCard')
 var isPhoneNum = require('./isPhoneNum')
 var isUrl = require('./isUrl')
+var validIdCard = require('./validIdCard')
 
 module.exports = {
   arrayEqual,
@@ -30,4 +31,5 @@ module.exports = {
   isIdCard,
   isPhoneNum,
   isUrl,
+  validIdCard,
 }

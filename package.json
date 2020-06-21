@@ -4,7 +4,7 @@
   "description": "tools",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -14,9 +14,12 @@
     "tools"
   ],
   "author": "typeofNaN",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/typeofNaN/dev-tools/issues"
   },
-  "homepage": "https://github.com/typeofNaN/dev-tools#readme"
+  "homepage": "https://github.com/typeofNaN/dev-tools#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
 }
